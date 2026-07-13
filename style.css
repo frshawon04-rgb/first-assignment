@@ -206,6 +206,75 @@
     border:1px solid blue;
 }
 .team{
-    color: rgb(34, 33, 33);
+    color: rgb(58, 57, 57);
     border: 1px solid rgb(31, 30, 30);
+}
+
+/* AI part  */
+
+.tracks-section {
+    background-color: rgb(250, 252, 255); /* Subtle tint to break up sections */
+    padding: 80px 20px;
+}
+
+.tracks-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tracks-head h1 {
+    font-size: 36px;
+    color: rgb(1, 1, 12);
+    margin-bottom: 12px;
+}
+
+.tracks-head p {
+    color: rgb(107, 103, 103);
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tracks-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for the 4 tracks */
+    gap: 30px;
+    margin: 0 60px;
+}
+
+.track-card {
+    background-color: white;
+    border: 1px solid rgb(235, 240, 245);
+    border-radius: 10px;
+    padding: 30px 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.track-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(8, 8, 221, 0.05);
+}
+
+.track-icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.track-card h3 {
+    font-size: 18px;
+    color: rgb(1, 1, 12);
+    margin-bottom: 10px;
+}
+
+.track-card p {
+    font-size: 14px;
+    color: rgb(107, 103, 103);
+    line-height: 1.5;
+}
+
+/* Quick responsive tweak so it doesn't get squished on smaller screens */
+@media (max-width: 900px) {
+    .tracks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
