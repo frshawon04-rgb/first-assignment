@@ -278,3 +278,28 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+footer{
+    background-color: rgb(70, 70, 100);
+    padding: 20px 20px 0px 20px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    height: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+footer hr{
+    border: none;
+    border-top: 1px solid black;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+    align-items: center;
+    color: rgb(206, 194, 194);
+    padding: 5px;
+   
+}
