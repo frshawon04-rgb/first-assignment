@@ -100,3 +100,112 @@
     padding-top: 3px;
     font-size: 15px;
  }
+ .card-head{
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+ }
+.card-head p{
+    font-size: 11px;
+    padding: 8px;
+    color: rgb(107, 103, 103);
+}
+.card-parent{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 20px 180px;
+    padding: 0 30px;
+    
+}
+.card-main .price h6{
+    color: blue;
+    font-weight: normal;
+}
+.card-main .price h1{
+    color: whitesmoke;
+}
+.card-main .price p{
+    color: rgb(151, 150, 150);
+    font-size: 12px;
+}
+.card-one .price{
+    margin: 20px 0px;
+}
+.card-one .price h6{
+    color:rgb(65, 62, 62) ;
+    font-weight: normal;
+}
+.card-one .price p{
+    font-size: 12px;
+    color:rgb(65, 62, 62) ;
+
+}
+.last-card .price h6{
+    color:rgb(65, 62, 62) ;
+    font-weight: normal;
+}
+.last-card .price p{
+    font-size: 12px;
+    color:rgb(65, 62, 62) ;
+}
+.card-main .price{
+        margin: 20px 0px;
+
+}
+
+.last-card{
+        margin-left: 30px;
+}
+.last-card .price{
+        margin: 20px 0px;
+
+}
+.card-one ul li{
+    width: 250px;
+    font-size: 12px;
+    padding: 5px;
+}
+.card-main ul li{
+    width: 250px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(143, 138, 138);
+}
+.last-card ul li{
+    width: 250px;
+    font-size: 12px;
+    padding: 5px;
+}
+.card-main{
+    background-color: rgb(1, 1, 12);
+    border-radius: 10px;
+    padding: 0 40px 40px 40px;
+    width: 220px;
+}
+.divider{
+    border: none;
+    border-top: 1px solid rgb(197, 193, 193);
+    padding: 15px;
+}
+.card-button{
+    padding: 8px 60px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 8px;
+}
+.highlight{
+    padding: 10px 80px;
+    color:rgb(255, 255, 255) ;
+    text-align: center;
+    background-color: blue;
+    border: none;
+}
+.standard{
+    color: blue;
+    border:1px solid blue;
+}
+.team{
+    color: rgb(34, 33, 33);
+    border: 1px solid rgb(31, 30, 30);
+}
