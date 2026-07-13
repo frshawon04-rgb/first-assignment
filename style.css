@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+.navigation ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-buttons{
+    background-color: rgb(8, 8, 221);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: normal;
+}
+.back-img{
+    background-image: url('./images/banner.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+
+    
+}
+
+.header-head h1{
+    color: rgb(250, 250, 250);
+    font-size: 50px;
+    padding-top: 60px; padding-bottom: 10px;
+    text-align: center;
+}
+.header-head p{
+    color: rgb(161, 154, 154);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.header-button{
+    background-color: rgb(8, 8, 221);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 280px;
+}
+.Speaker-head{
+    text-align: center;
+    margin-top: 20px;
+    padding: 60px;
+}
+.speaker-parents{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+    margin: 60px;
+    gap: 50px;
+}
+.speaker-parents img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.pic-card{
+    border: 1px solid rgb(245, 235, 235);
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.specificity{
+    color: blue;
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+    padding-bottom: 2px;
+}
+.speaker-parents h3{
+    margin: 0 0 0 8px;    
+}
+ .depertment{
+    color: rgb(148, 144, 144);
+    margin-left: 8px;
+    padding-top: 3px;
+    font-size: 15px;
+ }
